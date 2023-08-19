@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeGen</title>
+</head>
+<body>
+    <section class="title">
+        <h1>MemeGen</h1>
+    </section>
+
+    <section class="top">
+        <div class="container">
+            <input class="top-text"/>
+            <div class="img-display"></div>
+            <input class="bottom-text" />
+        </div>
+        
+        
+        
+    </section>
+    
+    <section class="bottom">
+        
+
+        <div class="controls">
+
+            <div class="font-main">
+                <div class="font-setting">
+                    <label for="font-adjust">Font Size</label>
+                    <input type="number" max="70" class="font-adjust" />
+                </div>
+                <button class="font-set">Set</button>
+                
+            </div>
+
+            <div class="top-main">
+                <div class="top-setting">
+                    <label for="top-adjust">Top Margin</label>
+                    <input type="number" class="top-adjust" />
+                </div>
+                <button class="top-set">Set</button>
+            </div>
+
+            <div class="bottom-main">
+                <div class="bottom-setting">
+                    <label for="bottom-adjust">Bottom Margin</label>
+                    <input type="number" class="bottom-adjust" />
+                </div>
+                <button class="bottom-set">Set</button>
+            </div>
+            
+        </div>
+
+        <div class="link-input-container">
+            <div class="arrange">
+                <label for="link-input">Insert link</label>
+                <input class="link-input-ting" />
+            </div>
+            
+            <button class="link-btn">Set</button>
+            <input dropzone="link" type="file" accept="image/*" class="file-input"/>
+        </div>
+        
+    </section>
+
+    <div class="done">
+        <button class="done-btn">Done</button>
+    </div>
+
+    <section class="end">
+        <p>Get a screenshot of the meme to save it when you're done</p>
+    </section>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
